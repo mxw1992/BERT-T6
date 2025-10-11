@@ -3,6 +3,20 @@ By fine-tuning the ProtBert protein language model on T6SS effector (T6SE) class
 ![image](https://github.com/mxw1992/BERT-T6/blob/main/image/%E4%B8%BB%E5%9B%BE%E9%A2%9C%E8%89%B2.jpg)
 A BERT-based transfer learning approach for T6SE prediction
 ## Set up
+The project is implemented with python (3.10.14), the following library packages are required:
+```
+numpy==2.3.3
+pandas==2.3.3
+scikit_learn==1.7.2
+torch==2.8.0
+pytorch==2.5.1
+transformers==4.32.1
+```
+While we have not tested with other versions, any reasonably recent versions of these requirements should work. You can create new environment and install all required packages with:
+```
+pip install -r requirements.txt
+```
+
 ## Usage
 ### Preprocessing
 For trainning BERT-T6 model, the fasta file should be like this:
