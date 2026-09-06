@@ -66,7 +66,7 @@ python predictT6SE.py --test_dir ./hypo.fasta --result_dir ./hypo.csv --checkpoi
 Parameters:
 - ```--test_dir``` path to the input protein FASTA file.
 - ```--result_dir``` directory that stores prediction outputs (CSV table).
-- ```--checkpoint_path``` path to the model weights (download from [here](https://drive.google.com/drive/folders/1dPDHxY7ga4JVDC6R4OdPueeYdQjR_Peg)).
+- ```--checkpoint_path``` path to the model weights (download from [here](https://drive.google.com/file/d/1aDoDfZ7GgKnKPTwzcRdnjXCxmz1PyA_r/view?usp=drive_link)).
 
 ## Contact
 Please contact Xianwei Mo at 13580342797@163.com for questions.
